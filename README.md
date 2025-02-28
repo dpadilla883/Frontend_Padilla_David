@@ -1,6 +1,6 @@
-Nombre: David Padilla
+# Nombre: David Padilla
 
-NRC: 1406
+# NRC: 1406
 
 
 # Frontend Proyecto PYMEs
@@ -9,17 +9,14 @@ NRC: 1406
 
 Este proyecto frontend está desarrollado con React, Vite y TypeScript. Utiliza PrimeReact para la interfaz de usuario, React Query para el manejo de datos y Axios para las peticiones HTTP. Se conecta a la API del backend para gestionar usuarios, productos, inventario, pedidos, etc.
 
-## Requisitos Previos
-
-- [Node.js](https://nodejs.org/) (versión recomendada: 16.x o superior)
-- [npm](https://www.npmjs.com/)
-- [Git](https://git-scm.com/)
 
 ## Instalación
 
 1. **Clonar el repositorio**
 
+   ```bash
    git clone https://github.com/dpadilla883/Frontend_Padilla_David.git
+   ```
 
    ```bash
    cd Frontend_Padilla_David
@@ -35,15 +32,7 @@ Este proyecto frontend está desarrollado con React, Vite y TypeScript. Utiliza 
    npm install --save-dev @vitejs/plugin-react
    ```
 
-3. **Configurar variables de entorno**
-
-   Crea un archivo `.env` en la raíz del proyecto frontend y agrega la siguiente variable (ajústala según tu entorno):
-
-   ```env
-   VITE_API_URL=http://localhost:3000
-   ```
-
-4. **Iniciar la aplicación**
+3. **Iniciar la aplicación**
 
    ```bash
    npm run dev
@@ -61,16 +50,10 @@ Este proyecto frontend está desarrollado con React, Vite y TypeScript. Utiliza 
   - **Gestión de Pedidos y Proveedores:** Para gestionar órdenes y proveedores.
 - La comunicación con el backend se realiza a través de Axios y React Query.
 - Los componentes de la interfaz están estilizados con PrimeReact y CSS personalizado.
-- Puedes modificar o agregar funcionalidades directamente en los componentes en la carpeta `src/pages/`.
+- Se puede modificar o agregar funcionalidades directamente en los componentes en la carpeta `src/pages/`.
 
-## Notas Adicionales
+## Requisitos Previos
 
-- Asegúrate de que el backend esté corriendo en la URL configurada en `VITE_API_URL`.
-- La aplicación utiliza rutas definidas en React Router. Revisa el archivo `App.tsx` para ver la configuración de las rutas.
-- Durante el desarrollo, la autenticación puede estar deshabilitada o simplificada para facilitar las pruebas. En producción, se recomienda implementar un sistema de autenticación robusto.
-
----
-
-Ambos archivos README proporcionan instrucciones detalladas para la instalación y uso de cada parte de la aplicación. Puedes ajustar y personalizar estos archivos según las necesidades específicas de tu proyecto.
-
-¿Te gustaría agregar o modificar algún detalle en estos README?
+- [Node.js](https://nodejs.org/) 
+- [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
