@@ -1,12 +1,9 @@
 Nombre: David Padilla
+
 NRC: 1406
 
-A continuación se muestran dos ejemplos de archivos README en formato Markdown, uno para el backend y otro para el frontend, con instrucciones detalladas para la instalación y uso de la aplicación.
 
----
-
-
-# README - Frontend
+# Frontend Proyecto PYMEs
 
 ## Descripción
 
@@ -32,6 +29,9 @@ Este proyecto frontend está desarrollado con React, Vite y TypeScript. Utiliza 
 
    ```bash
    npm install react-router-dom axios @tanstack/react-query zustand primereact primeicons
+   ```
+
+   ```bash
    npm install --save-dev @vitejs/plugin-react
    ```
 
