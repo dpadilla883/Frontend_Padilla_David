@@ -1,0 +1,50 @@
+/* SuppliersPage.css */
+
+.suppliers-page {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .suppliers-page h1 {
+    color: #343a40;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .suppliers-page .p-mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  
+  .suppliers-page form {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+  }
+  
+  .suppliers-page .p-field {
+    margin-bottom: 0.75rem;
+  }
+  
+  .suppliers-page .p-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  
+  .suppliers-page .p-field input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+
+  .suppliers-page .p-datatable {
+    margin-top: 1rem;
+  }
+  
